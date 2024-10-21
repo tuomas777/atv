@@ -16,8 +16,9 @@ repos:
     rev: v0.6.9
     hooks:
       - id: ruff
+        name: Ruff lint
       - id: ruff-format
-        args: [ --check ]
+        name: Ruff format
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
     rev: v9.13.0
     hooks:
