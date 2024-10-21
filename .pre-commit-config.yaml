@@ -18,11 +18,11 @@ repos:
       - id: ruff
         name: Ruff lint
         args:
-          - "--format=github"
+          - "format=github"
       - id: ruff-format
         name: Ruff format
         args:
-          - "--format=github"
+          - "format=github"
   - repo: https://github.com/alessandrojcm/commitlint-pre-commit-hook
     rev: v9.13.0
     hooks:
