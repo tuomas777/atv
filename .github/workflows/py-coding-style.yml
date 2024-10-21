@@ -22,7 +22,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v5   
         with:
           python-version: 3.11
 
@@ -62,3 +62,17 @@ jobs:
 
       - name: Check commitlint
         uses: wagoid/commitlint-github-action@0d749a1a91d4770e983a7b8f83d4a3f0e7e0874e
+
+  ruff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Ruffii linttii
+        uses: astral-sh/ruff-action@v1
+        with:
+          version: 0.6.9
+
+      - name: Run Ruffii formattii
+        uses: astral-sh/ruff-action@v1
+        with:
+          version: 0.6.9
