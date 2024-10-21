@@ -1,8 +1,8 @@
 from typing import Union
 
+from rest_framework import status
 from django.conf import settings
 from django.utils.translation import gettext_lazy as _
-from rest_framework import status
 from rest_framework.exceptions import APIException
 
 from utils.files import b_to_mb
