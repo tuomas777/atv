@@ -1,0 +1,10 @@
+name: "Extra steps for ATV"
+description: "Something fancy."
+
+runs:
+  using: "composite"
+  steps:
+    - name: Test manage.py
+      run: |
+        python manage.py --help
+      shell: bash

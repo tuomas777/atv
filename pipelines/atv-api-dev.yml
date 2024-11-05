@@ -2,9 +2,17 @@
 # an update to the specified branches or you push specified tags.
 trigger:
   batch: true
-  tags:
+  branches:
     include:
-      - atv-v*
+      - main
+  paths:
+    exclude:
+    - '*release-please*'
+    - '*.md'
+    - '.github/'
+    - 'pipelines/atv-api-release.yml'
+    - 'pipelines/atv-api-review.yml'
+    - 'docker-compose*'
 
 # Pull request (PR) triggers cause a pipeline to run whenever a pull request is
 # opened with one of the specified target branches, or when updates are made to
@@ -29,7 +37,16 @@ resources:
       name: atv/atv-pipelines
 
 extends:
-  # Filename in Azure DevOps Repository (note possible -ui or -api)
-  # Django example: azure-pipelines-PROJECTNAME-api-release.yml
-  # Drupal example: azure-pipelines-PROJECTNAME-release.yml
-  template: azure-pipelines-atv-api-release.yml@atv-pipelines
+  # Filename in Azure DevOps Repository
+  template: components/atv-api/pipelines/atv-api-dev.yml@atv-pipelines
+  # parameters:
+    # Application build arguments and config map values as key value pairs.
+    # Does not contain all buildArguments or configMap values, the rest located in atv-pipelines
+    # The values here will override the values defined in the atv-pipelines repository
+    # buildArgs:
+    #   DEBUG: 1
+    # configMap: # pod environment variables
+    #   DEBUG: 1
+    ## Default value to pythonVersion is set on template.
+    ## Used tool version
+    # pythonVersion: 3.11
