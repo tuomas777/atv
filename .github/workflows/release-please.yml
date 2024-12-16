@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - 'hotfix/**'
 
 permissions:
   contents: write
@@ -14,3 +15,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: google-github-actions/release-please-action@v4
+        with:
+          target-branch: ${{ github.ref_name }}
