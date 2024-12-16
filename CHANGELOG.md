@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.1.0](https://github.com/tuomas777/atv/compare/atv-v1.0.2...atv-v1.1.0) (2024-12-16)
+
+
+### Features
+
+* **settings:** Use DATABASE_PASSWORD if present ([9f11d58](https://github.com/tuomas777/atv/commit/9f11d58b9e2c3548f2147e42a22c223a93fe1a44))
+
+
+### Bug Fixes
+
+* Test fix 1 ([9f49c6b](https://github.com/tuomas777/atv/commit/9f49c6bf1adeb2767bedf216b1b4cb10d58519e0))
+* Test hotfix 3 ([2c47bae](https://github.com/tuomas777/atv/commit/2c47baeb90e261a8216d22875e6f01541390a669))
+
+
+### Dependencies
+
+* Upgrade dependencies ([91b71c1](https://github.com/tuomas777/atv/commit/91b71c1350e6a149e27ed1e2167ce6cdbe41b30e))
+
 ## [1.0.2](https://github.com/tuomas777/atv/compare/atv-v1.0.1...atv-v1.0.2) (2024-12-16)
 
 
