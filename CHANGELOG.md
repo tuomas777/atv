@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.3](https://github.com/tuomas777/atv/compare/atv-v1.1.2...atv-v1.1.3) (2024-12-17)
+
+
+### Bug Fixes
+
+* Test hotfix 4 ([f34d889](https://github.com/tuomas777/atv/commit/f34d889585fd2bdb1d0125df8ef742f1925308db))
+
 ## [1.1.2](https://github.com/tuomas777/atv/compare/atv-v1.1.2...atv-v1.1.1) (2024-12-17)
 
 
