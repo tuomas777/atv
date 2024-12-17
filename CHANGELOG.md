@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/tuomas777/atv/compare/atv-v1.1.0...atv-v1.1.1) (2024-12-17)
+
+
+### Bug Fixes
+
+* Test hotfox fix 1 ([3969586](https://github.com/tuomas777/atv/commit/3969586d2206268648123d74b05bbf35168db6f5))
+
 ## [1.1.0](https://github.com/tuomas777/atv/compare/atv-v1.0.2...atv-v1.1.0) (2024-12-16)
 
 
