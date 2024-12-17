@@ -5,6 +5,14 @@
 
 ### Bug Fixes
 
+* Main fix 4 ([f3d4604](https://github.com/tuomas777/atv/commit/f3d46041de791e0a8cb1be44868eba141b3a6511))
+* Test hotfix 7 ([69dd451](https://github.com/tuomas777/atv/commit/69dd4516b4d3d9078d44d17d3b28dc836506012c))
+
+## [1.1.5](https://github.com/tuomas777/atv/compare/atv-v1.1.4...atv-v1.1.5) (2024-12-17)
+
+
+### Bug Fixes
+
 * Test hotfix 7 ([69dd451](https://github.com/tuomas777/atv/commit/69dd4516b4d3d9078d44d17d3b28dc836506012c))
 
 ## [1.1.4](https://github.com/tuomas777/atv/compare/atv-v1.1.3...atv-v1.1.4) (2024-12-17)
