@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.1.8](https://github.com/tuomas777/atv/compare/atv-v1.1.7...atv-v1.1.8) (2025-01-10)
+
+
+### Bug Fixes
+
+* Main fix 7 ([1ea7d98](https://github.com/tuomas777/atv/commit/1ea7d9877354c1bab1da654ff98c2f553964fd62))
+* Main fix 8 ([ab533a2](https://github.com/tuomas777/atv/commit/ab533a2d5bdd2faaf1c578b72f655ee92e168a91))
+
+
+### Miscellaneous Chores
+
+* Test commit override release as ([4f0b723](https://github.com/tuomas777/atv/commit/4f0b723b6b34acbb2053b3b60025d1acc061944f))
+
 ## [1.1.7](https://github.com/tuomas777/atv/compare/atv-v1.1.7...atv-v1.1.7) (2024-12-17)
 
 
